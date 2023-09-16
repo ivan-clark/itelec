@@ -1,13 +1,20 @@
-import { useState, useEffect } from 'react';
+//import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home'
+import School from "./pages/School";
+import Hospital from "./pages/Hospital";
 
 const App = () => {
-  const [number, setNumber] = useState(0);
-  const [text, setText] = useState("HERE");
 
   return (
     <div className="App">
-      <h1>This is a header</h1>
-      <p>This is a new paragraph.</p>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Home/>}/>
+          <Route path="/school" exact element={<School/>}/>
+          <Route path="/hospital" exact element={<Hospital/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
