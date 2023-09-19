@@ -4,6 +4,7 @@ const Root = () => {
     return (
       <>
             <Link to={`/home`}>Home</Link>
+            <Link to={`/menu`}>Menu</Link>
             <Link to={`/about`}>About</Link>
             <Outlet />
       </>
