@@ -1,10 +1,17 @@
 import { Outlet, Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+
 
 const Root = () => {
     return (
       <>
-            <Link to={`/home`}>Home</Link>
-            <Link to={`/about`}>About</Link>
+            <Navbar
+              home = '/'
+              page1='home/'
+              pageName='HOME'
+              page2='about/'
+              pageName2='ABOUT'
+            ></Navbar>
             <Outlet />
       </>
     );
