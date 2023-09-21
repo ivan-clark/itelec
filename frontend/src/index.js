@@ -7,6 +7,7 @@ import {
 import Root from './routes/Root';
 import Home from './routes/Home';
 import About from './routes/About';
+import './App.css'
 
 const router = createBrowserRouter([
   {
