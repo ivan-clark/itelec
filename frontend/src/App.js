@@ -1,21 +1,16 @@
-import { useState, useEffect } from 'react';
-import OperatorButton from './OperatorButton';
-import TextBox from './TextBox';
-import Panel from './Panel';
+import React, { useState } from 'react';
+import SearchBar from './components/SearchBar';
 
 const App = () => {
-  const [number, setNumber] = useState(0);
-  const [text, setText] = useState("HERE");
+  const [filterText, setFilterText] = useState('');
 
-  return (
-    <div className="App">
-      {text}
-      <TextBox number={number} />
-      <OperatorButton handleNum={()=>setNumber(number+1)} text={"+"}/>
-      <OperatorButton handleNum={()=>setNumber(number-1)} text={"-"}/>
-      <Panel number={number} setText={setText}/>
+  return(
+    <div>
+      <SearchBar onSearch={setFilterText} />
+      <p>Search Text: {filterText}</p>
     </div>
-  );
+  )
 }
+
 
 export default App;
