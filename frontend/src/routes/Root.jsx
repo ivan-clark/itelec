@@ -3,8 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 const Root = () => {
     return (
       <>
-            <Link to={`/home`}>Home</Link>
-            <Link to={`/about`}>About</Link>
+      <ul><li> <Link to={`/home`}>Home</Link></li></ul>
+      <ul><li> <Link to={`/about`}>About</Link></li></ul>
             <Outlet />
       </>
     );
