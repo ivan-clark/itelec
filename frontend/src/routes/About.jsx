@@ -1,7 +1,7 @@
 const About = () => {
     return (
       <>
-        <h1>This is about us</h1>
+        <h1 style ={{ fontSize: 50}}>This is about us</h1>
       </>
     );
   }
