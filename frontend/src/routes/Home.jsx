@@ -1,9 +1,14 @@
-const Home = () => {
-    return (
-      <>
-        <h1>This is home</h1>
-      </>
-    );
-  }
+import React from 'react';
 
-  export default Home;
+
+const Home = () => {
+  return (
+    <ul className='cards__items'>
+    <video src='video/itsabiju.mp4' autoPlay loop muted />
+      <h1>Welcome home!</h1>
+      </ul>
+   
+  );
+}
+
+export default Home;
