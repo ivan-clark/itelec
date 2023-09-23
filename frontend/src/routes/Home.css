@@ -1,0 +1,22 @@
+.home-container {
+    padding: 20px;
+}
+
+.cat-img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.cat-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.cat-message {
+    border: solid 3px;
+    height: 30px;
+    padding: 10px;
+    background-color: #EAECEE;
+    border-radius: 10px;
+}

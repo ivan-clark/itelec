@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main:hover {
+    background-color: var(--light-gray)   ;
+    cursor: pointer;
+}
