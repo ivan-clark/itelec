@@ -20,6 +20,8 @@ const Root = () => {
           pageName2='ABOUT'
           page3='menu/'
           pageName3='MENU'
+          page4='button/'
+          pageName4='BUTTON'
         ></Navbar>
         <DarkMode />
         <Outlet />
