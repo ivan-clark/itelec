@@ -1,0 +1,21 @@
+.padding-right{
+    padding-right: 10px;
+}
+
+.blue-text{
+    color: blue;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; 
+   
+}
+
+.grid-item {
+    padding: 20px;           
+    color: black;             
+    text-align: left;
+}
+
