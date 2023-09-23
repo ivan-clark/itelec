@@ -1,0 +1,7 @@
+/* Add styles for dark mode here */
+.dark-mode {
+    background-color: black;
+    color: white;
+    size: 10000px;
+    height: 10000px;
+  }
