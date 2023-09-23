@@ -14,6 +14,7 @@ const DarkMode = () => {
         {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
       </button>
       <h1>{isDarkMode ? 'Dark becos dark ang park ' : 'Light becos ikaw ay mabait'}</h1>
+      <h2>Princess Rairai</h2>
       {/* Other components */}
     </div>
   );
