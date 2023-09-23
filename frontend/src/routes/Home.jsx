@@ -1,3 +1,5 @@
+import "./Home.css"
+import cat from "../../src/assets/images/cat.png"
 import { useState } from "react";
 
 const Home = () => {
@@ -17,10 +19,14 @@ const Home = () => {
 
   return (
     <>
-      <h1 style ={{ fontSize: 50}}>This is home</h1>
+      <h1 style={{ fontSize: 50 }}>This is home</h1>
       <div className="home-container">
+        <div className="cat-container">
+          <h2 className="cat-message">Let's learn ReactJS together!</h2>
+          <img className="cat-img" src={cat} />
+        </div>
         <h1 className="home-title">Welcome to Croy's Homepage</h1>
-        <h1 style={{color:"blue"}}>Welcome to IT-ELECTIVE 4!</h1>
+        <h1 style={{ color: "blue" }}>Welcome to IT-ELECTIVE 4!</h1>
         <p>Let's learn ReactJS together!</p>
         <p className="home-description">
           This is where the home page is displayed.
