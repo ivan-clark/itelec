@@ -2,6 +2,7 @@ import "./Home.css"
 import cat from "../../src/assets/images/cat.png"
 import { useState } from "react";
 
+
 const Home = () => {
   const handleButtonClick = () => {
     console.log('abitria/task-15');
@@ -17,8 +18,22 @@ const Home = () => {
     console.log(item);
   };
 
+  const [filterText, setFilterText] = useState('');
+  const handleInputChange = (e) => {
+    setFilterText(e.target.value);
+  };
+
   return (
     <>
+      <div>
+      <input
+          type="text"
+          placeholder="Search..."
+          value={filterText}
+          onChange={handleInputChange}
+        />
+        <p>Search Text: {filterText}</p>
+      </div>
       <h1 style={{ fontSize: 50 }}>This is home</h1>
       <div className="home-container">
         <div className="cat-container">
