@@ -5,14 +5,14 @@ import Navbar from "../components/Navbar";
 const Root = () => {
     return (
       <>
-            <Navbar
-              home = '/'
-              page1='home/'
-              pageName='HOME'
-              page2='about/'
-              pageName2='ABOUT'
-            ></Navbar>
-            <Outlet />
+        <Navbar
+          home = '/'
+          page1='home/'
+          pageName='HOME'
+          page2='about/'
+          pageName2='ABOUT'
+        ></Navbar>
+        <Outlet />
       </>
     );
   }
