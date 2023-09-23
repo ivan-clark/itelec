@@ -27,6 +27,6 @@ const Root = () => {
         <Outlet />
       </>
     );
-  }
+};
 
-  export default Root;
+export default Root;
