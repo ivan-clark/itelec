@@ -20,6 +20,8 @@ const Home = () => {
       <h1>This is home</h1>
       <div className="home-container">
         <h1 className="home-title">Welcome to Croy's Homepage</h1>
+        <h1 style={{color:"blue"}}>Welcome to IT-ELECTIVE 4!</h1>
+        <p>Let's learn ReactJS together!</p>
         <p className="home-description">
           This is where the home page is displayed.
         </p>
