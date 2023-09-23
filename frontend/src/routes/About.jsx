@@ -23,7 +23,7 @@ const About = () => {
           Learn More Pls
         </button>
       </div>
-      <h1 className="blue-text">This is about us</h1>
+      <h1 className="blue-text" style ={{ fontSize: 50}}>This is about us</h1>
       <h1>Slash Canales</h1>
       <h1 style={{ color: "blue" }}>IT-Elective 4</h1>
       <p> This course covers ReactJS. </p>
