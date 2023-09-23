@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <>
-      <h1 style={{ fontSize: 50 }}>This is home</h1>
+      <h1 style={{ fontSize: 50, color: 'green' }}>This is home</h1>
       <div className="n">       
         <Greeting name="Nellah"/>
       </div>
