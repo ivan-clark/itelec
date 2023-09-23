@@ -23,8 +23,13 @@ const Home = () => {
   return (
     <>
       <h1 style={{ fontSize: 50, color: 'green' }}>This is home</h1>
-      <div className="n">       
-        <Greeting name="Nellah"/>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div className="n">
+        <Greeting name="Nellah" />
       </div>
       <img src={homeImage} alt="This is literally a home." />
       <div className="home-container">
