@@ -11,6 +11,8 @@ const Root = () => {
           pageName='HOME'
           page2='about/'
           pageName2='ABOUT'
+          page3='menu/'
+          pageName3='MENU'
         ></Navbar>
         <Outlet />
       </>

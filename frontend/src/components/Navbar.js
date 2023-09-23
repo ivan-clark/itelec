@@ -25,6 +25,11 @@ function Navbar(props) {
                      {props.pageName2}
                     </Link>
                   </li>
+                  <li className='nav-item'>
+                    <Link to={props.page3} className='nav-links'>
+                     {props.pageName3}
+                    </Link>
+                  </li>
                 </ul>
             </div>
         </nav>
