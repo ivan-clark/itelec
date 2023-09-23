@@ -1,3 +1,5 @@
+import Greeting from './Greeting.jsx';
+import './modules/design.css';
 import homeImage from '../assets/homeHouse.png';
 import "./Home.css"
 import cat from "../../src/assets/images/cat.png"
@@ -21,6 +23,9 @@ const Home = () => {
   return (
     <>
       <h1 style={{ fontSize: 50 }}>This is home</h1>
+      <div className="n">       
+        <Greeting name="Nellah"/>
+      </div>
       <img src={homeImage} alt="This is literally a home." />
       <div className="home-container">
         <div className="cat-container">
