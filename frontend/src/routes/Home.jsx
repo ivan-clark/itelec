@@ -1,3 +1,4 @@
+import homeImage from '../assets/homeHouse.png';
 import "./Home.css"
 import cat from "../../src/assets/images/cat.png"
 import { useState } from "react";
@@ -20,6 +21,7 @@ const Home = () => {
   return (
     <>
       <h1 style={{ fontSize: 50 }}>This is home</h1>
+      <img src={homeImage} alt="This is literally a home." />
       <div className="home-container">
         <div className="cat-container">
           <h2 className="cat-message">Let's learn ReactJS together!</h2>
