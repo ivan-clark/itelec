@@ -15,6 +15,7 @@ const DarkMode = () => {
       </button>
       <h1>{isDarkMode ? 'Dark becos dark ang park ' : 'Light becos ikaw ay mabait'}</h1>
       {/* Other components */}
+      <li><a href="#contact">dan ochea</a></li>
     </div>
   );
 };
