@@ -24,6 +24,7 @@ const About = () => {
         </button>
       </div>
       <h1 className="blue-text">This is about us</h1>
+      <h1>Slash Canales</h1>
       <div className="container">
         <div className="grid-item">
           <h2>
