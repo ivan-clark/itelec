@@ -11,7 +11,7 @@ function Navbar() {
     <>
       <nav>
         <div>
-          <Link to="/home">
+          <Link to="/">
             {/**CHANGE to decided name
              * can add icon after name
              */}
