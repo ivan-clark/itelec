@@ -30,6 +30,13 @@ function Navbar() {
               <Link to="/contact" className="nav-links">
                 CONTACT US
               </Link>
+
+
+              </li>
+            <li className="nav-item">
+              <Link to="/carts" className="nav-links">
+              ADD TO CART
+              </Link>
             </li>
           </ul>
         </div>

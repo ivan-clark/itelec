@@ -1,0 +1,117 @@
+
+
+.btn1{
+
+    background-color: blueviolet;
+    padding: 10px 20px; /* Add padding to make the buttons wider */
+    color: white;
+    margin-right: 100px; /* Reduce the margin for a sleeker look */
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    
+    
+    
+    
+
+
+
+
+    
+}
+
+.btn2{
+    background-color: blueviolet;
+    padding: 10px 20px; /* Add padding to make the buttons wider */
+    color: white;
+    margin-right:  100px; /* Reduce the margin for a sleeker look */
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+ 
+
+
+
+
+    
+}
+.btn3{
+
+    background-color: blueviolet;
+    padding: 10px 20px; /* Add padding to make the buttons wider */
+    color: white;
+    margin-right:  100px; /* Reduce the margin for a sleeker look */
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  
+
+
+
+    
+}
+.btn4{
+
+    background-color: blueviolet;
+    padding: 10px 20px; /* Add padding to make the buttons wider */
+    color: white;
+    margin-right:  100px; /* Reduce the margin for a sleeker look */
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  
+
+
+
+
+    
+}
+
+
+.button-position
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 500px;
+    
+ 
+
+     
+}
+
+.p{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: small;
+margin-left: 50px;
+
+
+
+}
+
+
+.btn1:hover {
+    background-color: mediumorchid; /* Change color on hover */
+    transform: scale(1.05); /* Add a subtle zoom effect on hover */
+  }
+  
+
+  .btn2:hover {
+    background-color: mediumorchid; /* Change color on hover */
+    transform: scale(1.05); /* Add a subtle zoom effect on hover */
+  }
+  
+  .btn3:hover {
+    background-color: mediumorchid; /* Change color on hover */
+    transform: scale(1.05); /* Add a subtle zoom effect on hover */
+  }
+  
+  .btn4:hover {
+    background-color: mediumorchid; /* Change color on hover */
+    transform: scale(1.05); /* Add a subtle zoom effect on hover */
+  }
+  
