@@ -7,6 +7,7 @@ import {
 import Root from './routes/Root';
 import Home from './routes/Home';
 import About from './routes/About';
+import NotFound from './routes/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
       {
         path: "about/",
         element: <About />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
+        errorElement: <NotFound />,
       },
     ],
   },
