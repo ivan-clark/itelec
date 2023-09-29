@@ -1,4 +1,7 @@
-const FeaturedProducts = () => {
+import './featuredproducts.css';
+import FeaturedProductItem from './FeaturedProductItems';
+
+function FeaturedProducts () {
   const featuredProducts = [
     {
       id: 1,
@@ -33,11 +36,10 @@ const FeaturedProducts = () => {
       <h2>Featured Products</h2>
       <ul>
         {featuredProducts.map(product => (
-          <li key={product.id}>
-            <img src={product.image} alt={product.name} />
-            <h3>{product.name}</h3>
-            <button>Visit Shop</button>
-          </li>
+          <FeaturedProductItem
+          key={product.id}
+          src={product.image}
+          name={product.name} />
         ))}
       </ul>
     </section>
