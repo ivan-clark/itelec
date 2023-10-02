@@ -1,3 +1,15 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+
 .wrap{
     display: flex;
     flex-direction: column;
@@ -12,9 +24,15 @@
 .form{
     width: 50%;
     border: 3px solid #f1f1f1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
 }
 
-input[type=text], input[type=password]{
+input[type="text"], 
+input[type="password"]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -22,8 +40,12 @@ input[type=text], input[type=password]{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.error {
+    color: red;
+    font-size: 12px;
+}
 
-.button{
+button{
     background-color: #3c009d;
     color: white;
     padding: 14px 20px;
@@ -31,14 +53,6 @@ input[type=text], input[type=password]{
     border: none;
     cursor: pointer;
     width: 100%;
-}
-
-.container{
-    padding: 16px;
-}
-
-.button:hover{
-    opacity: 0.8;
 }
 
 .header{
@@ -63,3 +77,13 @@ input[type=text], input[type=password]{
     background: #3c009d;
     border-radius: 9px;
 }
+
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
