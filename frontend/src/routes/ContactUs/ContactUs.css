@@ -15,8 +15,39 @@ header {
 
 footer {
     padding: 10px;
+    background-color: white;
 }
-
+.unbullet-list{
+    list-style-type: none;
+}
+.footerbg{
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.gmail{
+    background-image: url("./assets/gmail.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.phone{
+    background-image: url("./assets/phone.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.address{
+    background-image: url("./assets/placeholder.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.contactHeader{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
 @media screen and (min-width: 480px) {
     body {
         background-color: #00C9FF;
@@ -43,6 +74,9 @@ footer {
        display: flex;
        flex-flow: row;
     }
+    .footerbg{
+    background-color: white;
+    }
 
     .footer-contact {
         width: 50%;
@@ -60,9 +94,12 @@ footer {
         justify-content: center;
         align-items: center;
     }
+    .footerbg{
+    background-color: white;
+    }
 
    body {
-    background-color: #0B8ACA;
+    background-color: white;
    }
 
    .contact-us-text {
@@ -81,7 +118,7 @@ footer {
 
   @media screen and (min-width: 1020px) {
     body {
-     background-color: #0A4BA2;
+     background-color: white;
     }
 
     .contact-us-content-container {
@@ -94,10 +131,13 @@ footer {
         font-size: 20px;
         font-weight: 600;
         width: fit-content;
-        color: white;
+        color: black;
     }
 
     .contact-us-text::before {
         content: "(screen for desktop) ";
+    }
+    .footerbg{
+        background-color: white;
     }
    }
