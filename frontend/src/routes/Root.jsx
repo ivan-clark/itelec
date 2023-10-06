@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 
@@ -13,6 +13,8 @@ const Root = () => {
           pageName2='ABOUT'
           page3='menu/'
           pageName3='MENU'
+          page4='contactUs/'
+          pageName4='CONTACT US'
         ></Navbar>
         <Outlet />
       </>

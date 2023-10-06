@@ -8,7 +8,7 @@ import Root from './routes/Root';
 import Home from './routes/Home';
 import Menu from './routes/Menu';
 import About from './routes/About';
-
+import ContactUs from './routes/ContactUs/ContactUs';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,7 +26,10 @@ const router = createBrowserRouter([
         path: "about/",
         element: <About />,
       },
-      
+      {
+        path: "contactUs/",
+        element: <ContactUs />,
+      },
     ],
   },
 ]);
