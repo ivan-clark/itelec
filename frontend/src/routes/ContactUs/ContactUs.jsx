@@ -9,6 +9,20 @@ const ContactUs = () => {
         <React.Fragment>
             <Header/>
                 <p>This is Contact Us page insert details in here</p>
+                <h1>Contact Form</h1>
+        <contact id='contactus'>
+          <form class="cf">
+            <div class="half left cf">
+              <input type="text" id="input-name" placeholder="Name"></input>
+              <input type="text" id="input-email" placeholder="Email address"></input>
+              <input type="text" id="input-subject" placeholder="Subject"></input>
+            </div>
+            <div class="half right cf">
+              <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+            </div>  
+              <input type="submit" value="Submit" id="input-submit"></input>
+          </form>
+        </contact>
             <Footer/>
         </React.Fragment>
       </>
