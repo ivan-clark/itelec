@@ -1,4 +1,3 @@
-
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
@@ -18,7 +17,6 @@ const Root = () => {
           pageName4='CONTACT US'
         ></Navbar>
         <Outlet />
-
       </>
     );
   }
