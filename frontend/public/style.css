@@ -63,6 +63,28 @@
     padding: 8px 25px;
 }
 
+.cart2 {
+    background:#ffffff;
+    color:#fff;
+    margin-left: 10px;
+}
+
+.cart-button {
+    display: inline-block;
+    cursor: pointer; /* Display pointer cursor on hover */
+    text-decoration: none; /* Remove default underline */
+    margin-top: 10px;
+    
+}
+
+
+.cart-icon {
+    vertical-align: middle; /* Align the cart icon vertically */
+
+    width: 40; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+}
+
 .container .box-container .box .btn:hover{
     letter-spacing: 1px;
 }
