@@ -1,32 +1,32 @@
 import './featuredproducts.css';
 import FeaturedProductItem from './FeaturedProductItems';
 
+import dogShopImg from './images/dog.png' ;
+import catShopImg from './images/cat.png' ;
+import groomShopImg from './images/grooming.png'
+import smallShopImg from './images/small.png'
+
 function FeaturedProducts () {
   const featuredProducts = [
     {
       id: 1,
       name: 'Dog Shop',
-      image: ''
+      image: dogShopImg
     },
     {
       id: 2,
       name: 'Cat Shop',
-      image: ''
+      image: catShopImg
     },
     {
       id: 3,
       name: 'Small Pet Shop',
-      image: ''
+      image: smallShopImg
     },
     {
       id: 4,
-      name: 'Fish Shop',
-      image: ''
-    },
-    {
-      id: 5,
       name: 'Pet Grooming',
-      image: ''
+      image: groomShopImg
     }
 
   ];
