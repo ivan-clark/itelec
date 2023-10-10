@@ -94,6 +94,15 @@
     transform: scale(1.03);
 }
 
+.container .box-container .box:hover {
+    transform: translateX(10px); /* Move the box 10 pixels to the right on hover */
+}
+
+.container .box-container .box:hover {
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03) translateX(10px);
+}
+
 @media (max-width:768px){
     .container{
         padding:20px;
