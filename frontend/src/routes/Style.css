@@ -1,0 +1,10 @@
+
+#headerbg{ background-color: rgb(12, 180, 213);}
+#headerbg{ text-align: center;}
+#headerbg{ padding: 1px;}
+#footerbg{ background-color: rgb(165, 221, 12);}
+#footerbg{ text-align: center;}
+#footerbg{ width: 100%;}
+#footerbg{ position: absolute;}
+#footerbg{ padding: 1px;}
+#footerbg { bottom: 0;}
