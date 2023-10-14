@@ -1,45 +1,39 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Navbar.css'
+/**
+ * Link routes are temporary
+ * can be change
+ */
+import { Link } from "react-router-dom";
+//import "./Navbar.css";
 
-
-
-function Navbar(props) {
-
-
+function Navbar() {
   return (
     <>
-         <nav className="navbar">
-            <div className="navbar-container">
-                <Link to={props.home} className='navbar-logo' >
-                   HOME<i className="fab fa-typo3"></i>
-                </Link>
-                <ul className='nav-menu'>
-                  <li className='nav-item'>
-                    <Link to={props.page1} className='nav-links'>
-                     {props.pageName}
-                    </Link>
-                  </li>
-                  <li className='nav-item'>
-                    <Link to={props.page2} className='nav-links'>
-                     {props.pageName2}
-                    </Link>
-                  </li>
-                  <li className='nav-item'>
-                    <Link to={props.page3} className='nav-links'>
-                     {props.pageName3}
-                    </Link>
-                  </li>
-                  <li className='nav-item'>
-                    <Link to={props.page4} className='nav-links'>
-                     {props.pageName4}
-                    </Link>
-                  </li>
-                </ul>
-            </div>
-        </nav>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo">
+            SHOP NAME
+          </Link>
+          <ul className="nav-menu">
+            <li className="nav-item">
+              <Link to="/home" className="nav-links">
+                HOME
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/about" className="nav-links">
+                ABOUT US
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/contact" className="nav-links">
+                CONTACT US
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
