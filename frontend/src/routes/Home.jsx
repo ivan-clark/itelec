@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 import FeaturedProducts from "./FeaturedProducts";
 
 const Home = () => {
 
     return (
       <>
+        <h1>This is home</h1>
+        <button><Link to={"/product"}>Product Page</Link></button>
         
         <FeaturedProducts />
         <h1>Welcome to Companion - Your One-Stop Shop for Pet Products!</h1>
