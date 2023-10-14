@@ -1,11 +1,14 @@
-import { Outlet, Link } from 'react-router-dom';
-import Team from '../components/Team';
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Team from "../components/Team";
 
 const Root = () => {
     return (
-        <>
-            <Team />
-        </>
+      <>
+          <Navbar />
+          <Outlet />
+          <Team />
+      </>
     );
 };
 

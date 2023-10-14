@@ -32,13 +32,13 @@ const Login = () => {
         setErrorMessages({ name: "pass", message: errors.pass });
       } else {
         setIsSubmitted(true);
-        navigate('/Home');
+        navigate('/home');
       }
     } else {
       setErrorMessages({ name: "uname", message: errors.uname });
       
     }
-      // navigate('/Home');
+     
     };
 
     const renderErrorMessage = (name) =>
