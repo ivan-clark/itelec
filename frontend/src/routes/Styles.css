@@ -1,0 +1,33 @@
+@media (max-height: 500px) {
+    .featured-products {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .featured-products ul {
+      padding: 0;
+    }
+  
+    .featured-products li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .featured-products img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .featured-products h3 {
+      font-size: 18px;
+    }
+  
+    .featured-products p {
+      font-size: 14px;
+    }
+  
+    .featured-products button {
+      font-size: 14px;
+    }
+  }
