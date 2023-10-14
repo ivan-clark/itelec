@@ -28,14 +28,24 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "contactUs/",
+        path: "contact/",
         element: <ContactUs />,
       },
     ],
   },
+  // //add this if di mo ganahan ma apil ang navbar
+  // {
+  //   path: "/signin",
+  //   element: <SignIn />,
+  // },
+  // {
+  //   path: "/product",
+  //   element: <ProductPage />,
+  // },
+  // like and subscribe for more advice
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
