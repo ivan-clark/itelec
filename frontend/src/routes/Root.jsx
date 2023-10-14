@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
-import Login from './Login'
 import Navbar from "../components/Navbar";
+import Team from "../components/Team";
 
 const Root = () => {
     return (
       <>
           <Navbar />
           <Outlet />
+          <Team />
       </>
     );
-  }
+};
 
 export default Root;

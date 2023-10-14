@@ -1,0 +1,139 @@
+.contact-us-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 57vh;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+header {
+    padding: 10px;
+}
+
+.unbullet-list{
+    list-style-type: none;
+}
+.footerbg{
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.gmail{
+    background-image: url("./assets/gmail.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.phone{
+    background-image: url("./assets/phone.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.address{
+    background-image: url("./assets/placeholder.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.contactHeader{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: #00C9FF;
+    }
+
+    .contact-us-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-us-text {
+        font-size: 20px;
+        font-weight: 600;
+        width: 400px;
+        color: #055778;
+    }
+
+    .contact-us-text::before {
+        content: "(screen for phones) ";
+    }
+
+    footer {
+       display: flex;
+       flex-flow: row;
+    }
+    .footerbg{
+    background-color: white;
+    }
+
+    .footer-contact {
+        width: 50%;
+    }
+
+    .footer-navigation {
+        width: 50%;
+    }
+  }
+
+
+  @media screen and (min-width: 760px) {
+    .contact-us-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerbg{
+    background-color: white;
+    }
+
+   body {
+    background-color: white;
+   }
+
+   .contact-us-text {
+        font-size: 20px;
+        font-weight: 600;
+        width: fit-content;
+        color: #A2E8FF;
+    }
+
+    .contact-us-text::before {
+        content: "(screen for tablets) ";
+    }
+  }
+
+
+
+  @media screen and (min-width: 1020px) {
+    body {
+     background-color: white;
+    }
+
+    .contact-us-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-us-text {
+        font-size: 20px;
+        font-weight: 600;
+        width: fit-content;
+        color: black;
+    }
+
+    .contact-us-text::before {
+        content: "(screen for desktop) ";
+    }
+    .footerbg{
+        background-color: white;
+    }
+   }
