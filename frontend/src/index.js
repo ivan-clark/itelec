@@ -4,12 +4,17 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/Root";
 import Home from "./routes/Home";
 import About from "./routes/About";
+import Login from "./routes/Login";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Login />,
+  },
+  {
     element: <Root />,
     children: [
+      
       {
         path: "home/",
         element: <Home />,
@@ -20,11 +25,7 @@ const router = createBrowserRouter([
       },
     ],
   },
-  // //add this if di mo ganahan ma apil ang navbar
-  // {
-  //   path: "/signin",
-  //   element: <SignIn />,
-  // },
+  //add this if di mo ganahan ma apil ang navbar  
   // {
   //   path: "/product",
   //   element: <ProductPage />,

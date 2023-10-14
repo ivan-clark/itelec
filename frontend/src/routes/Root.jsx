@@ -1,12 +1,12 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Login from './Login'
-import Home from './Home'
+import Navbar from "../components/Navbar";
 
 const Root = () => {
     return (
       <>
+          <Navbar />
           <Outlet />
-          <Login /> 
       </>
     );
   }
