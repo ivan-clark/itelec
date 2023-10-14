@@ -18,7 +18,6 @@ const router = createBrowserRouter([
         path: "about/",
         element: <About />,
       },
-
     ],
   },
   // //add this if di mo ganahan ma apil ang navbar
