@@ -1,4 +1,5 @@
 import FeaturedProductItem from './FeaturedProductItems';
+import './Styles.css';
 
 import dogShopImg from './images/dog.png' ;
 import catShopImg from './images/cat.png' ;
