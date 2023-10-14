@@ -20,6 +20,16 @@ const router = createBrowserRouter([
       },
     ],
   },
+  // //add this if di mo ganahan ma apil ang navbar
+  // {
+  //   path: "/signin",
+  //   element: <SignIn />,
+  // },
+  // {
+  //   path: "/product",
+  //   element: <ProductPage />,
+  // },
+  // like and subscribe for more advice
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
