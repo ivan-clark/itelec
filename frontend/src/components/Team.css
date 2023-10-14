@@ -1,0 +1,31 @@
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 48px;
+}
+
+.team-member h1,
+.team-member h3 {
+    margin: 0;
+}
+
+.member-picture {
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+}
+
+hr {
+    border: 1px solid #dadada;
+    width: 95%;
+}
