@@ -32,10 +32,11 @@ const Login = () => {
         setErrorMessages({ name: "pass", message: errors.pass });
       } else {
         setIsSubmitted(true);
+        navigate('/Home');
       }
     } else {
       setErrorMessages({ name: "uname", message: errors.uname });
-      navigate('/Home');
+      
     }
       // navigate('/Home');
     };
