@@ -1,19 +1,43 @@
-import { useState, useEffect } from 'react';
-import OperatorButton from './OperatorButton';
-import TextBox from './TextBox';
-import Panel from './Panel';
+import axios from "axios";
+import { useState } from "react";
 
 const App = () => {
-  const [number, setNumber] = useState(0);
-  const [text, setText] = useState("HERE");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [firstname, setFirstname] = useState("");
+  const [lastname, setLastname] = useState("");
+
+  const handleClick = () => {
+
+    // axios.get('https://localhost:7216/api/Duhig?name=CLARK')
+    //   .then((response) => {
+    //     console.log(response);
+    //   });
+
+    axios.post('https://localhost:7216/api/Test',
+      {
+        username: username,
+        password: password,
+        firstname: firstname,
+        lastname: lastname
+      }
+    )
+      .then((response) => {
+        console.log(response);
+      });
+  };
 
   return (
     <div className="App">
-      {text}
-      <TextBox number={number} />
-      <OperatorButton handleNum={()=>setNumber(number+1)} text={"+"}/>
-      <OperatorButton handleNum={()=>setNumber(number-1)} text={"-"}/>
-      <Panel number={number} setText={setText}/>
+      <label>Username:</label>
+      <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+      <label>Password:</label>
+      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+      <label>First Name:</label>
+      <input type="text" value={firstname} onChange={(e) => setFirstname(e.target.value)} />
+      <label>Last Name:</label>
+      <input type="text" value={lastname} onChange={(e) => setLastname(e.target.value)} />
+      <button onClick={() => handleClick()}>BUTTON</button>
     </div>
   );
 }
